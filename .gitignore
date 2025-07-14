@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 仮想環境フォルダ
+# The venv folder contains the Python interpreter and libraries.
+# It's project-specific and can be recreated using requirements.txt.
+venv/
+
+# ダウンロードしたデータ
+# Sentinel-1のデータファイルは巨大なためバージョン管理に含めない
+*.zip
+SAR_DATA/
+
+# SNAPの生成物（必要に応じて追加）
+*.dim
+*.data/
+
+# IDE/エディタ設定ファイル (例)
+.vscode/
+.idea/
